@@ -26,11 +26,11 @@ export const Footer = () => {
               <img src={logo} alt="logo" />
             </LogoWrapper>
             <Typography variant="h4" sx={{ color: "#fff" }}>
-              LeverEdgeAI
+              Based Tax Pad
             </Typography>
           </div>
           <Typography variant="body2" sx={{ color: "#ccc" }}>
-            An intuitive platform designed for individuals and corporations
+          Next-gen tech for a launchpad that’s pure crypto gold.
           </Typography>
         </div>
         <Box
@@ -50,7 +50,7 @@ export const Footer = () => {
             </Typography>
             <Typography variant="body2">About</Typography>
             <Typography variant="body2">Use Cases</Typography>
-            <Typography variant="body2">Tokenomic</Typography>
+            <Typography variant="body2">Tokenomics</Typography>
           </Stack>
           <Stack gap={2} direction="column" sx={{ color: "#8d8d8d" }}>
             <Typography
@@ -59,7 +59,7 @@ export const Footer = () => {
             >
               Support
             </Typography>
-            <Typography variant="body2">Features</Typography>
+            <Typography variant="body2">How It Works</Typography>
             <Typography variant="body2">Roadmap</Typography>
           </Stack>
           <Stack gap={2} direction="column" sx={{ color: "#8d8d8d" }}>
@@ -89,7 +89,7 @@ export const Footer = () => {
       <Divider sx={{ borderColor: "rgba(250, 255, 255, .1)" }} />
       <Box sx={{ padding: "2rem 0", textAlign: "center" }}>
         <Typography variant="body2">
-          Copyright © 2024 LeverEdgeAI. All Rights Reserved
+          Copyright © 2024 Based Tax  Pad. All Rights Reserved
         </Typography>
       </Box>
     </>
