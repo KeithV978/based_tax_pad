@@ -13,11 +13,11 @@ import { Typography } from "@mui/material";
 
 // images
 // import comm from "../../assets/images/comm.png";
-import analysis from "../../assets/images/analysis.png";
 // import cross from "../../assets/images/cross.png";
-import risk from "../../assets/images/risk.png";
 // import token from "../../assets/images/token.png";
-import manage from "../../assets/images/manage.png";
+import td from "../../assets/images/td.jpg";
+import taxes from "../../assets/images/taxes.jpg";
+import launch from "../../assets/images/launch.jpg";
 
 export const Features = () => {
   return (
@@ -47,19 +47,19 @@ export const Features = () => {
             title: "STEP 1: Design token",
             subtitle:
               "Craft your token—pick a name, set supply, and choose rewards like SOL, USDC, or your custom token.",
-            img: manage,
+            img: td,
           },
           {
             title: "STEP 2: Set Taxes",
             subtitle:
               "Set your tax rate (e.g., 5% for auto-rewards), add burns, buybacks, or treasury rules.",
-            img: analysis,
+            img: taxes,
           },
           {
             title: "STEP 3: Launch & Reward",
             subtitle:
              "aunch on Base in seconds, automate rewards for holders, and watch profits stack—$BPAD style, zero hassle!",
-            img: risk,
+            img: launch,
           }
         ].map((item, index) => {
           return (
