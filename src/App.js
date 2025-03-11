@@ -9,9 +9,10 @@ import { JoinUs } from "./components/joinus";
 import ScrollToTop from "./components/scrollToTop";
 import { About } from "./components/about";
 import { Roadmap } from "./components/roadmap";
+import { Tokenomics } from "./components/tokenomics";
 
 function App() {
-  document.title = "LeverEdgeAI - Welcome";
+  document.title = "Based Tax Pad - Welcome";
   return (
     <Container
       sx={{
@@ -24,6 +25,7 @@ function App() {
         <About />
         <Features />
         <Roadmap />
+        <Tokenomics />
         <JoinUs />
       </main>
       <Footer />

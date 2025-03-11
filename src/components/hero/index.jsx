@@ -49,7 +49,8 @@ export const Hero = () => {
       >
         <Box
           sx={{
-            width: { sm: "30%", xs: "50%" },
+            marginTop: '5rem',
+            width: { sm: "25%", xs: "50%" },
             // margin: "auto",
           }}
         >
@@ -67,7 +68,7 @@ export const Hero = () => {
           />
         </Box>
 
-        <FirstCircleWrapper>
+        {/* <FirstCircleWrapper>
           <img
             src={circle1}
             alt="first circle"
@@ -84,34 +85,36 @@ export const Hero = () => {
               animation: "anticlockrotate 4.5s infinite ease-in-out",
             }}
           />
-        </SecondCircleWrapper>
+        </SecondCircleWrapper> */}
       </Box>
       <Box sx={{ marginTop: "7rem" }}>
         <TextWrapper>
           <Maintext variant="h3">
+     <span style={{scale: 1.8}}>   $BPAD</span>
+        <br/>
             <span
               style={{
                 color: "#fff",
               }}
             >
-              Smart and Flexible{" "}
+              MINT
+TAX
+TOKENS +
+AUTO REWARDS
             </span>
             <br />
-            Solutions for Leverage Trading
+
           </Maintext>
         </TextWrapper>
       </Box>
-
-      <Stack
+    
+      <Box
         sx={{
-          gap: 2,
-          marginTop: { sm: "2rem", xs: "1rem" },
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "row",
+         margin: "2rem auto",
+          
         }}
       >
-        <Button
+        {/* <Button
           href="https://app.leveredgeai.io"
           variant="contained"
           sx={{
@@ -124,7 +127,7 @@ export const Hero = () => {
           }}
         >
           Try Bot
-        </Button>
+        </Button> */}
 
         <MuiBtn
           variant="outlined"
@@ -138,13 +141,13 @@ export const Hero = () => {
             paddingRight: "2rem",
           }}
         >
-          Buy Now
+          Get Started
         </MuiBtn>
-      </Stack>
+      </Box>
 
       <Box
         sx={{
-          padding: { sm: "5rem 2rem 2rem", xs: "3rem 0" },
+          padding: { sm: "3rem 2rem 2rem", xs: "2rem 0" },
           maxWidth: "700px",
           margin: "0 auto",
         }}
@@ -155,9 +158,10 @@ export const Hero = () => {
           color="#767676"
           letterSpacing="4px"
         >
-          Flexible and Advanced tools for smart choices
+          Drop tax tokens with built-in automation to reward holders and boost gains.
+        
         </Typography>
-        <Box
+        {/* <Box
           component="ul"
           sx={{
             listStyle: "none",
@@ -184,7 +188,7 @@ export const Hero = () => {
           <li>
             <StyledImage src={coin} alt="coin" />
           </li>
-        </Box>
+        </Box> */}
       </Box>
       <div
         style={{

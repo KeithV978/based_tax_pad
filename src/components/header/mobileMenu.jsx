@@ -27,7 +27,7 @@ export const MobileNav = ({ menuOpen, toggleDrawer }) => {
           <img src={logo} alt="logo" style={{ width: "50px" }} />
           <Typography variant="h6" padding="1rem">
             <Link to="/" sx={{ color: "#fff" }}>
-              LeverEdge AI
+             Base Tax Pad
             </Link>
           </Typography>
         </Stack>
@@ -35,7 +35,7 @@ export const MobileNav = ({ menuOpen, toggleDrawer }) => {
         <List>
           {[
             { text: "About", icon: <BlurOnRounded />, link: "#about" },
-            { text: "Features", icon: <BlurOnRounded />, link: "#features" },
+            { text: "How It Works", icon: <BlurOnRounded />, link: "#features" },
             { text: "Roadmap", icon: <BlurOnRounded />, link: "#roadmap" },
           ].map((item, index) => (
             <ListItem key={index} disablePadding>

@@ -3,12 +3,15 @@ import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 let theme = createTheme({
   palette: {
     primary: {
-      main: "#195f88",
+      main: "#F90678",
+    },
+    secondary: {
+      main: "#0678F9",
     },
     background: "#0f0823",
   },
   typography: {
-    fontFamily: "Roboto, SUSE, LilitaOne, Open-Sans",
+    fontFamily: "SUSE, Roboto, LilitaOne, Open-Sans",
 
     h3: {
       fontFamily: '"LilitaOne", "Open-Sans"',

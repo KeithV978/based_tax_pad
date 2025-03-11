@@ -34,6 +34,7 @@ export const Ul = styled("div")(({ theme }) => ({
     padding: ".5rem 1rem",
     "& li": {
       color: "#fff",
+      padding: "0 1rem",
     },
   },
 }));

@@ -24,13 +24,17 @@ export const SubTitle = styled(Typography)(({ theme }) => ({
   width: "fit-content",
 }));
 export const CardWrapper = styled("div")(({ theme }) => ({
-  //   display: "flex",
-  //   flexDirection: "row",
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+    gap: '2rem',
   width: "100%",
-  padding: "1rem 0",
-  overflow: "hidden",
+  padding: "1rem 0", 
 
-  [theme.breakpoints.up("sm")]: {},
+  [theme.breakpoints.up("sm")]: {
+    flexDirection: "row",
+
+  },
 }));
 export const Card = styled("div")(({ theme }) => ({
   maxWidth: "260px",

@@ -22,9 +22,9 @@ import manage from "../../assets/images/manage.png";
 export const Features = () => {
   return (
     <Wrapper id="features">
-      <TitleBar>Features</TitleBar>
+      <TitleBar>How It Works</TitleBar>
       <SubTitle variant="h2" sx={{ textAlign: "center" }}>
-        Key{" "}
+        How{" "}
         <span
           style={{
             background: `linear-gradient(89.9deg, #02C3FA -1.07%, #0163D6 39.04%, #02C7FC 70.22%, #1634CA 101.56%)`,
@@ -35,48 +35,32 @@ export const Features = () => {
           }}
         >
           {" "}
-          Features
+          Based Tax Pad{" "}
         </span>
+        Works
       </SubTitle>
+      <Typography variant="h6" sx={{margin: '0 auto', textAlign: 'center'}}>3 easy steps to Base tax tokens—$BPAD power, auto-rewards!</Typography>
 
       <FeaturesCardWrapper>
         {[
           {
-            title: "Smart Position Management",
+            title: "STEP 1: Design token",
             subtitle:
-              "Dynamic position sizing, risk management tools and flexible leverage settings for users. An interface that supports advanced order types such as stop-loss, take-profit and trailing stop.",
+              "Craft your token—pick a name, set supply, and choose rewards like SOL, USDC, or your custom token.",
             img: manage,
           },
           {
-            title: "In-Depth Market Analysis",
+            title: "STEP 2: Set Taxes",
             subtitle:
-              " Volume, volatility and trend analysis with real-time data based on blockchain. Customizable tools for charts and indicators. ",
+              "Set your tax rate (e.g., 5% for auto-rewards), add burns, buybacks, or treasury rules.",
             img: analysis,
           },
           {
-            title: "Risk Measurement and Monitoring Tools",
+            title: "STEP 3: Launch & Reward",
             subtitle:
-              " A platform where users can measure their trading risks in advance and test their strategies with simulations. AI-based risk analysis and recommendations.",
+             "aunch on Base in seconds, automate rewards for holders, and watch profits stack—$BPAD style, zero hassle!",
             img: risk,
-          },
-          {
-            title: "Cross-Chain Integration",
-            subtitle:
-              " Compatible with multiple blockchain networks (e.g. Ethereum, Binance Smart Chain, Solana). Easy trading on various platforms thanks to DEX and CEX integrations.",
-            img: cross,
-          },
-          {
-            title: "Community-Focused Education and Utilities",
-            subtitle:
-              " A knowledge center where users can improve their trading skills with educational videos and guides. Weekly market summaries and leverage trading-specific content.",
-            img: comm,
-          },
-          {
-            title: "Tokenomics (LEVR Token)",
-            subtitle:
-              " A utility token called LEVR will be developed. Users will be able to get discounts on trading fees, access to premium features, and community rewards with the token.",
-            img: token,
-          },
+          }
         ].map((item, index) => {
           return (
             <FeaturesCard key={index}>

@@ -39,7 +39,7 @@ export const Header = () => {
           <Stack direction="row" alignItems="center">
             <Img src={logo} alt="logo" />
             <Typography variant="h6" fontWeight={700}>
-              LeverEdgeAI
+              Based Tax Pad
             </Typography>
           </Stack>
 
@@ -51,7 +51,7 @@ export const Header = () => {
             </li>
             <li>
               <Link href="#features">
-                <Typography color="#fff">Features</Typography>
+                <Typography color="#fff">How It Works</Typography>
               </Link>
             </li>
             <li>
@@ -70,7 +70,7 @@ export const Header = () => {
               borderRadius: "25px",
             }}
           >
-            Try Bot
+           Get Started
           </Button>
           <Box sx={{ display: { sm: "none", xs: "block" } }}>
             <Hamburger
