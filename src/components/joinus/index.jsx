@@ -10,14 +10,14 @@ import Box from "@mui/material/Box";
 
 export const JoinUs = () => {
   return (
-    // <div>
+    <div>
     <Wrapper>
       <Box sx={{ width: { sm: "40%", xs: "100%" } }}>
         <Typography
           variant="h3"
           sx={{ textAlign: { sm: "left", xs: "center" } }}
         >
-          Join Us{" "}
+          Join {" "}
           <span
             style={{
               background: `linear-gradient(89.9deg, #02C3FA -1.07%, #0163D6 39.04%, #02C7FC 70.22%, #1634CA 101.56%)`,
@@ -26,18 +26,18 @@ export const JoinUs = () => {
               webkitTextTillColor: "transparent",
               color: "transparent",
             }}
-          >
-            Today
-          </span>
+          >  $BPAD {" "}
+          </span>today
         </Typography>
         <Title
-          variant="body2"
+          variant="h6"
           sx={{
             textAlign: { sm: "left !important", xs: "center" },
             padding: "1rem 0",
           }}
         >
-          Stay connected with us by joining us on our socials!
+          Base speed, auto-rewards.<br/>
+         
         </Title>
       </Box>
       <ConnectButtonWrapper>
@@ -70,6 +70,10 @@ export const JoinUs = () => {
         </Button>
       </ConnectButtonWrapper>
     </Wrapper>
-    // </div>
+
+    <div>
+      <Typography sx={{ textAlign: 'center'}}> Early Access Available. </Typography>
+    </div>
+    </div>
   );
 };

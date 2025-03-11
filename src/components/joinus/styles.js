@@ -3,7 +3,7 @@ import { styled } from "@mui/material";
 import Typography from "@mui/material/Typography";
 
 export const Wrapper = styled("section")(({ theme }) => ({
-  margin: "5rem 1rem",
+  margin: "3rem 1rem",
   padding: "2rem",
   textAlign: "center",
   justifyContent: "space-evenly",

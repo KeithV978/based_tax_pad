@@ -9,6 +9,10 @@ export const Wrapper = styled("header")(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   flexDirection: "column",
+  [theme.breakpoints.up("sm")]: {
+    minHeight: "800px",
+
+  },
 }));
 export const TitleBar = styled(Typography)(({ theme }) => ({
   border: `1px solid ${[theme.palette.primary.main]}`,

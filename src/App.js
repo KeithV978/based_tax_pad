@@ -10,6 +10,7 @@ import ScrollToTop from "./components/scrollToTop";
 import { About } from "./components/about";
 import { Roadmap } from "./components/roadmap";
 import { Tokenomics } from "./components/tokenomics";
+import { Technology } from "./components/technology";
 
 function App() {
   document.title = "Based Tax Pad - Welcome";
@@ -26,6 +27,7 @@ function App() {
         <Features />
         <Roadmap />
         <Tokenomics />
+        <Technology />
         <JoinUs />
       </main>
       <Footer />

@@ -1,22 +1,22 @@
 import React from "react";
 import {
-  FirstCircleWrapper,
+  // FirstCircleWrapper,
   // Img,
   Maintext,
-  SecondCircleWrapper,
+  // SecondCircleWrapper,
   LStars,
   RStars,
   // Network,
   // SuperText,
   TextWrapper,
   Wrapper,
-  StyledImage,
+  // StyledImage,
 } from "./styles";
-import Stack from "@mui/material/Stack";
+// import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 // import Link from "@mui/material/Link";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import MuiBtn from "@mui/material/Button";
 // import { Button } from "../button";
 // import tron_hand from "../../assets/images/hero/hero_.png";
@@ -24,14 +24,14 @@ import MuiBtn from "@mui/material/Button";
 
 // import { BOT_LINK } from "../../utils/links";
 // import { useTheme } from "@mui/material";
-import hero from "../../assets/images/hero/hero1.jpg";
+import hero from "../../assets/images/logo/logo.png";
 
-import uniswap from "../../assets/images/p1.png";
-import eth from "../../assets/images/p2.png";
-import dex from "../../assets/images/p3.png";
-import coin from "../../assets/images/p4.png";
-import circle1 from "../../assets/images/hero/dot-circle1.png";
-import circle2 from "../../assets/images/hero/dot-circle2.png";
+// import uniswap from "../../assets/images/p1.png";
+// import eth from "../../assets/images/p2.png";
+// import dex from "../../assets/images/p3.png";
+// import coin from "../../assets/images/p4.png";
+// import circle1 from "../../assets/images/hero/dot-circle1.png";
+// import circle2 from "../../assets/images/hero/dot-circle2.png";
 
 export const Hero = () => {
   // const theme = useTheme();
@@ -49,7 +49,7 @@ export const Hero = () => {
       >
         <Box
           sx={{
-            marginTop: '5rem',
+            marginTop: "5rem",
             width: { sm: "25%", xs: "50%" },
             // margin: "auto",
           }}
@@ -90,28 +90,23 @@ export const Hero = () => {
       <Box sx={{ marginTop: "7rem" }}>
         <TextWrapper>
           <Maintext variant="h3">
-     <span style={{scale: 1.8}}>   $BPAD</span>
-        <br/>
+            <span style={{ scale: 1.8 }}> $BPAD</span>
+            <br />
             <span
               style={{
                 color: "#fff",
               }}
             >
-              MINT
-TAX
-TOKENS +
-AUTO REWARDS
+              MINT TAX TOKENS + AUTO REWARDS
             </span>
             <br />
-
           </Maintext>
         </TextWrapper>
       </Box>
-    
+
       <Box
         sx={{
-         margin: "2rem auto",
-          
+          margin: "2rem auto",
         }}
       >
         {/* <Button
@@ -158,8 +153,8 @@ AUTO REWARDS
           color="#767676"
           letterSpacing="4px"
         >
-          Drop tax tokens with built-in automation to reward holders and boost gains.
-        
+          Drop tax tokens with built-in automation to reward holders and boost
+          gains.
         </Typography>
         {/* <Box
           component="ul"

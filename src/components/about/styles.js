@@ -20,9 +20,9 @@ export const TitleBar = styled(Typography)(({ theme }) => ({
   boxShadow: `0px 0px 10px 0px ${[theme.palette.primary.main]} inset`,
   borderRadius: "25px",
   width: "fit-content",
-  padding: ".2rem 1rem",
-  marginBottom: "1rem",
+  padding: ".2rem 1rem", 
   color: `${[theme.palette.primary.main]}`,
+  margin: '1rem auto'
 }));
 export const SubTitle = styled(Typography)(({ theme }) => ({
   marginBottom: "1rem",

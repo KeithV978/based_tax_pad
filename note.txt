@@ -70,6 +70,7 @@ Token Symbol: $BPAD
 
 Total Supply: 1,000,000,000 
 
+
 Buy Tax: 5% 
 
 Sell Tax: 5% 

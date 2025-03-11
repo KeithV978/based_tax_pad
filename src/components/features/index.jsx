@@ -12,11 +12,11 @@ import { SubTitle } from "../about/styles";
 import { Typography } from "@mui/material";
 
 // images
-import comm from "../../assets/images/comm.png";
+// import comm from "../../assets/images/comm.png";
 import analysis from "../../assets/images/analysis.png";
-import cross from "../../assets/images/cross.png";
+// import cross from "../../assets/images/cross.png";
 import risk from "../../assets/images/risk.png";
-import token from "../../assets/images/token.png";
+// import token from "../../assets/images/token.png";
 import manage from "../../assets/images/manage.png";
 
 export const Features = () => {
